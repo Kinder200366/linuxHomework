@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "menu.h"
 
-int main() {
+int maina() {
     char option;
     do {
         displayMenu();

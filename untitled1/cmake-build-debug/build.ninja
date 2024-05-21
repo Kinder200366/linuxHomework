@@ -84,6 +84,20 @@ build CMakeFiles/untitled1.dir/api/work.cpp.obj: CXX_COMPILER__untitled1_unscann
   OBJECT_DIR = CMakeFiles\untitled1.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\api
 
+build CMakeFiles/untitled1.dir/api2/function.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/123/CLionProjects/untitled1/api2/function.cpp || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\api2\function.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/123/CLionProjects/untitled1/api
+  OBJECT_DIR = CMakeFiles\untitled1.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\api2
+
+build CMakeFiles/untitled1.dir/api3/d3.c.obj: C_COMPILER__untitled1_unscanned_Debug C$:/Users/123/CLionProjects/untitled1/api3/d3.c || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\api3\d3.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/123/CLionProjects/untitled1/api
+  OBJECT_DIR = CMakeFiles\untitled1.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\api3
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled1
@@ -92,7 +106,7 @@ build CMakeFiles/untitled1.dir/api/work.cpp.obj: CXX_COMPILER__untitled1_unscann
 #############################################
 # Link the executable untitled1.exe
 
-build untitled1.exe: CXX_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/api/main.cpp.obj CMakeFiles/untitled1.dir/api/menu.cpp.obj CMakeFiles/untitled1.dir/api/log.cpp.obj CMakeFiles/untitled1.dir/api/workk.cpp.obj CMakeFiles/untitled1.dir/api/work.cpp.obj
+build untitled1.exe: CXX_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/api/main.cpp.obj CMakeFiles/untitled1.dir/api/menu.cpp.obj CMakeFiles/untitled1.dir/api/log.cpp.obj CMakeFiles/untitled1.dir/api/workk.cpp.obj CMakeFiles/untitled1.dir/api/work.cpp.obj CMakeFiles/untitled1.dir/api2/function.cpp.obj CMakeFiles/untitled1.dir/api3/d3.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled1.dir

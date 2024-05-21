@@ -10,5 +10,7 @@ add_executable(untitled1 api/main.cpp
         api/menu.cpp
         api/log.cpp
         api/workk.cpp
-        api/work.cpp)
+        api/work.cpp
+        api2/function.cpp
+        api3/d3.c)
 include_directories(api)

@@ -1,13 +1,17 @@
 # ninja log v5
 43	586	7379655037773752	CMakeFiles/untitled1.dir/api/work.cpp.obj	842a291494e72a89
+10	1140	7379820916808952	CMakeFiles/untitled1.dir/api2/function.cpp.obj	89a1db0a81060d89
 28	2293	7376293978329777	CMakeFiles/untitled1.dir/main.cpp.obj	62d95ddb815e945c
 15	3975	7379054574502447	CMakeFiles/untitled1.dir/api/app.cpp.obj	57cd4e3d119ea2b1
-18	585	7379655037783759	CMakeFiles/untitled1.dir/api/menu.cpp.obj	9eb1c0c6da89fd6e
+9	208	7379663773187544	CMakeFiles/untitled1.dir/api/menu.cpp.obj	9eb1c0c6da89fd6e
 101	5518	7376294010563077	CMakeFiles/untitled1.dir/app.cpp.obj	ec7488aa0915ad84
-15	261	7379052294405181	CMakeFiles/untitled1.dir/api/main.cpp.obj	4cdbdbc04336b71a
+9	207	7379819362232157	CMakeFiles/untitled1.dir/api/main.cpp.obj	4cdbdbc04336b71a
 25	378	7379054202029925	CMakeFiles/untitled1.dir/api/log.cpp.obj	56b2c09cf429da73
 33	405	7379655035874932	CMakeFiles/untitled1.dir/api/workk.cpp.obj	48bb37f1c8844aa7
-4	420	7379655622928824	build.ninja	acaba329b8bebf93
-37	478	7379655628785221	untitled1.exe	63d1616d4d50023e
-9	208	7379663773187544	CMakeFiles/untitled1.dir/api/menu.cpp.obj	9eb1c0c6da89fd6e
-210	518	7379663776005872	untitled1.exe	63d1616d4d50023e
+4	420	7379827933527196	build.ninja	acaba329b8bebf93
+1141	1441	7379820919707177	untitled1.exe	cf1156be1e7d8eff
+9	381	7379828271661043	CMakeFiles/untitled1.dir/api3/d3.c.obj	55832bb44468917a
+10	986	7379828511116226	CMakeFiles/untitled1.dir/api2/function.cpp.obj	89a1db0a81060d89
+988	1200	7379828513180562	untitled1.exe	28d7402dfe3d7189
+10	156	7379828646422367	CMakeFiles/untitled1.dir/api3/d3.c.obj	55832bb44468917a
+157	376	7379828648521068	untitled1.exe	28d7402dfe3d7189

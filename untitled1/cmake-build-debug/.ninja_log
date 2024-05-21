@@ -1,0 +1,7 @@
+# ninja log v5
+28	2293	7376293978329777	CMakeFiles/untitled1.dir/main.cpp.obj	62d95ddb815e945c
+101	5518	7376294010563077	CMakeFiles/untitled1.dir/app.cpp.obj	ec7488aa0915ad84
+15	261	7379052294405181	CMakeFiles/untitled1.dir/api/main.cpp.obj	4cdbdbc04336b71a
+25	378	7379054202029925	CMakeFiles/untitled1.dir/api/log.cpp.obj	56b2c09cf429da73
+7	294	7379054537681213	CMakeFiles/untitled1.dir/api/menu.cpp.obj	9eb1c0c6da89fd6e
+15	3975	7379054574502447	CMakeFiles/untitled1.dir/api/app.cpp.obj	57cd4e3d119ea2b1

@@ -63,15 +63,22 @@ build CMakeFiles/untitled1.dir/api/menu.cpp.obj: CXX_COMPILER__untitled1_unscann
   OBJECT_DIR = CMakeFiles\untitled1.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\api
 
-build CMakeFiles/untitled1.dir/api/app.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/123/CLionProjects/untitled1/api/app.cpp || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\api\app.cpp.obj.d
+build CMakeFiles/untitled1.dir/api/log.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/123/CLionProjects/untitled1/api/log.cpp || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\api\log.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/123/CLionProjects/untitled1/api
   OBJECT_DIR = CMakeFiles\untitled1.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\api
 
-build CMakeFiles/untitled1.dir/api/log.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/123/CLionProjects/untitled1/api/log.cpp || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\api\log.cpp.obj.d
+build CMakeFiles/untitled1.dir/api/workk.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/123/CLionProjects/untitled1/api/workk.cpp || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\api\workk.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/123/CLionProjects/untitled1/api
+  OBJECT_DIR = CMakeFiles\untitled1.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\api
+
+build CMakeFiles/untitled1.dir/api/work.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/123/CLionProjects/untitled1/api/work.cpp || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\api\work.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/123/CLionProjects/untitled1/api
   OBJECT_DIR = CMakeFiles\untitled1.dir
@@ -85,7 +92,7 @@ build CMakeFiles/untitled1.dir/api/log.cpp.obj: CXX_COMPILER__untitled1_unscanne
 #############################################
 # Link the executable untitled1.exe
 
-build untitled1.exe: CXX_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/api/main.cpp.obj CMakeFiles/untitled1.dir/api/menu.cpp.obj CMakeFiles/untitled1.dir/api/app.cpp.obj CMakeFiles/untitled1.dir/api/log.cpp.obj
+build untitled1.exe: CXX_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/api/main.cpp.obj CMakeFiles/untitled1.dir/api/menu.cpp.obj CMakeFiles/untitled1.dir/api/log.cpp.obj CMakeFiles/untitled1.dir/api/workk.cpp.obj CMakeFiles/untitled1.dir/api/work.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled1.dir

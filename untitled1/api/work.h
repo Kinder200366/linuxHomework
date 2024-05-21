@@ -7,7 +7,7 @@
 
 
 
-void printMenu();
+// void printMenu();
 void showCPUInfo();
 void showProcessInfo();
 void showMemoryInfo();

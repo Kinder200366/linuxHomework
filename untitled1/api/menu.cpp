@@ -6,13 +6,13 @@
 
 void displayMenu() {
     printf("------------------\n");
-    printf("C          浜や簰鑿滃崟\n");
+    printf("C          交互菜单\n");
     printf("------------------\n");
-    printf("A:鏌ョ湅CPU纭欢淇℃伅\n");
-    printf("B:鏌ョ湅杩涚▼杩愯淇℃伅\n");
-    printf("C:鏌ョ湅鍐呭瓨纭欢淇℃伅銆佸唴瀛樹娇鐢ㄤ俊鎭痋n");
-    printf("D:鏌ョ湅瀛樺偍璁惧纭欢淇℃伅銆佸瓨鍌ㄨ澶囦娇鐢ㄤ俊鎭痋n");
-    printf("E:閫�鍑篭n");
+    printf("A:查看CPU硬件信息\n");
+    printf("B:查看进程运行信息\n");
+    printf("C:查看内存硬件信息、内存使用信息\n");
+    printf("D:查看存储设备硬件信息、存储设备使用信息\n");
+    printf("E:退出\n");
     printf("------------------\n");
 }
 
@@ -24,25 +24,27 @@ void handleUserInput() {
 
     switch(option) {
         case 'A':
-            logMenuOption("A");
-        printf("Option A selected. Viewing CPU hardware information.\n");
-        showCPUInfo();
-        // Do something to display CPU hardware information
+            logMenuOption("User choose A");
+            printf("Option A selected. Viewing CPU hardware information.\n");
+            showCPUInfo();
         break;
         case 'B':
-            logMenuOption("B");
-
-        printf("Option B selected. Viewing process running information.\n");
+            logMenuOption("User choose B");
+            printf("Option B selected. Viewing process running information.\n");
+            showProcessInfo();
         // Do something to display process running information
-        break;
+            break;
         case 'C':
-            logMenuOption("C");
-        printf("Option C selected. Viewing memory hardware information and memory usage information.\n");
-        // Do something to display memory hardware information and memory usage information
+            logMenuOption("User choose C");
+            printf("Option C selected. Viewing memory hardware information and memory usage information.\n");
+            showMemoryInfo();
+
+            // Do something to display memory hardware information and memory usage information
         break;
         case 'D':
             logMenuOption("D");
         printf("Option D selected. Viewing storage device hardware information and storage device usage information.\n");
+        showStorageInfo();
         // Do something to display storage device hardware information and storage device usage information
         break;
         case 'E':
